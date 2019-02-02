@@ -133,8 +133,8 @@ int main(int argc, char *argv[])
     MainApp app(argc, argv);
 
     app.setApplicationName("koson-gui");
-    app.setOrganizationDomain("koson-currency.com");
-    app.setOrganizationName("kosonproject");
+    app.setOrganizationDomain("koson.network");
+    app.setOrganizationName("koson-project");
 
 #if defined(Q_OS_LINUX)
     if (isDesktop) app.setWindowIcon(QIcon(":/images/appicon.ico"));
@@ -296,7 +296,7 @@ int main(int argc, char *argv[])
     if (accountName.isEmpty())
         accountName = qgetenv("USERNAME"); // Windows
     if (accountName.isEmpty())
-        accountName = "My KSN Account";
+        accountName = "My Koson Account";
 
     engine.rootContext()->setContextProperty("defaultAccountName", accountName);
     engine.rootContext()->setContextProperty("applicationDirectory", QApplication::applicationDirPath());

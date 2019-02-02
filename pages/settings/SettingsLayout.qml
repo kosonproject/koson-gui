@@ -51,7 +51,7 @@ Rectangle {
         anchors.topMargin: 0
         spacing: 0
 
-        KsonComponents.CheckBox {
+        KosonComponents.CheckBox {
             visible: !isMobile
             id: customDecorationsCheckBox
             checked: persistentSettings.customDecorations

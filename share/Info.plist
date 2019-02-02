@@ -24,7 +24,7 @@
   <string>Koson GUI</string>
 
   <key>CFBundleIdentifier</key>
-  <string>org.kosonproject.koson-wallet-gui</string>
+  <string>org.koson-project.koson-wallet-gui</string>
 
   <key>NSSupportsAutomaticGraphicsSwitching</key>
   <true/>

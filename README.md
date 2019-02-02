@@ -1,6 +1,6 @@
 # Koson GUI
 
-Copyright (c) 2018 The Koson Project
+Copyright (c) 2018-2019 The Koson Project
 Portions Copyright (c) 2014-2018, The Monero Project
 
 ## Development resources

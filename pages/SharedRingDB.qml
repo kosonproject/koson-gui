@@ -127,7 +127,7 @@ Rectangle {
                     "actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers " +
                     "of privacy protection Koson uses.<br>" +
                     "To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new " +
-                    "transactions. Such a list is maintained by the Koson project and is available on the koson-currency.com website, " +
+                    "transactions. Such a list is maintained by the Koson project and is available on the koson.network website, " +
                     "and you can import this list here.<br>" +
                     "Alternatively, you can scan the blockchain (and the blockchain of key-reusing Koson clones) yourself " +
                     "using the koson-blockchain-mark-spent-outputs tool to create a list of known spent outputs.<br>"

@@ -76,7 +76,7 @@ ApplicationWindow {
     property bool remoteNodeConnected: false
     property bool androidCloseTapped: false;
     // Default daemon addresses
-    readonly property string localDaemonAddress : persistentSettings.nettype == NetworkType.MAINNET ? "localhost:22023" : persistentSettings.nettype == NetworkType.TESTNET ? "localhost:38157" : "localhost:38154"
+    readonly property string localDaemonAddress : persistentSettings.nettype == NetworkType.MAINNET ? "localhost:44045" : persistentSettings.nettype == NetworkType.TESTNET ? "localhost:38157" : "localhost:38154"
     property string currentDaemonAddress;
     property bool startLocalNodeCancelled: false
     property int estimatedBlockchainSize: 50 // GB
@@ -1053,7 +1053,7 @@ ApplicationWindow {
         property bool   allow_background_mining : false
         property bool   miningIgnoreBattery : true
         property var    nettype: NetworkType.MAINNET
-        property string daemon_address: nettype == NetworkType.TESTNET ? "localhost:38157" : nettype == NetworkType.STAGENET ? "localhost:38154" : "localhost:22023"
+        property string daemon_address: nettype == NetworkType.TESTNET ? "localhost:38157" : nettype == NetworkType.STAGENET ? "localhost:38154" : "localhost:44045"
         property string payment_id
         property int    restore_height : 0
         property bool   is_recovering : false
