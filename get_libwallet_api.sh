@@ -57,12 +57,12 @@ elif [ ! -f $KOSON_DIR/version.sh ]; then
     BUILD_LIBWALLET=true
 ## Compare previously built version with submodule + merged PR's version. 
 else
-    source $KOSOM_DIR/version.sh
+    source $KOSON_DIR/version.sh
     # compare submodule version with latest build
     pushd "$KOSON_DIR"
     get_tag
     popd
-    echo "latest libwallet version: $GUI_KOSOM_VERSION"
+    echo "latest libwallet version: $GUI_KOSON_VERSION"
     echo "Installed libwallet version: $VERSIONTAG"
     # check if recent
     if [ "$VERSIONTAG" != "$GUI_KOSON_VERSION" ]; then

@@ -133,8 +133,8 @@ int main(int argc, char *argv[])
     MainApp app(argc, argv);
 
     app.setApplicationName("koson-gui");
-    app.setOrganizationDomain("koson.network");
-    app.setOrganizationName("koson-project");
+    app.setOrganizationDomain("koson-currency.com");
+    app.setOrganizationName("kosonproject");
 
 #if defined(Q_OS_LINUX)
     if (isDesktop) app.setWindowIcon(QIcon(":/images/appicon.ico"));
