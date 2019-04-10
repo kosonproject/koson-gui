@@ -1,25 +1,29 @@
 # Koson GUI
 
-Copyright (c) 2018-2019 The Koson Project
+
+<p align="center">
+    <a href="https://github.com/kosonproject/koson"><img alt="Koson Logo" src="https://github.com/kosonproject/kosonicons/blob/master/android-icon-192x192.png" /></a>
+</p>
+
+Copyright (c) 2019 The Koson Project
+
 Portions Copyright (c) 2014-2018, The Monero Project
 
-## Development resources
+## Social Links
 
-- Web: [koson-currency.com](https://koson-currency.com)
-- Telegram: [t.me/KosonAnnouncements](https://t.me/KosonAnnouncements)
-- Mail: [ksndevs@protonmail.com](mailto:ksndevs@protonmail.com)
-- GitHub: [https://github.com/kosonproject](https://github.com/kosonproject)
+- Website: [koson-currency.com](https://koson-currency.com)
+- Telegram: [t.me/joinchat/JK1brw6ptg62Xx5vqAda2Q](https://t.me/joinchat/JK1brw6ptg62Xx5vqAda2Q)
 - Discord: [https://discord.gg/54ESana](https://discord.gg/54ESana)
+- Mail: [ksndevs@protonmail.com](ksndevs@protonmail.com)
 
 ## Introduction
 
-Koson is a private cryptocurrency based on Monero. Over the course of the coming months, the Koson project aims to offer an incenvised full node layer with a secondary p2p network that offers a private communications layer based on the Signal protocol.
+Koson is a fork from Monero, one of the most respectable cryptocurrency well-known for **security, privacy, untraceability** and **active development**. Koson was created with high level of privacy by (1) moving forward right away to **Ring Confidential Transactions (RingCT)**, (2) setting **minimum transaction _mixin_ to 16** that would greatly reduce chance of being attacked, traced or identified by (blockchain) statistical analysis.
 
-More information on the project can be found on the website and in the whitepaper.
+Koson, therefore, is a new Monero without its legacy, a _truely fungible_ cryptocurrency among just a few ones in the market.
 
-Koson is an open source project, and we encourage contributions from anyone with something to offer. For more information on contributing, please contact ksndevs@protonmail.com.
 
-## About this project
+## About The Koson Project
 
 This is the GUI for the [Koson implementation](https://github.com/kosonproject/koson). It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of Koson that uses the protocol and network in a compatible manner.
 

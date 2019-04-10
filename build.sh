@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -e
-
 BUILD_TYPE=$1
 source ./utils.sh
 platform=$(get_platform)
@@ -123,7 +121,3 @@ make deploy
 popd
 
 cp koson_default_settings.ini build/$BIN_PATH/koson.ini
-
-if [ "$platform" == "darwin" ]; then
-    otool -l build/$BIN_PATH/koson-wallet-gui | grep sdk
-fi

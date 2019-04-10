@@ -327,10 +327,11 @@ macx {
     # }
     LIBS+= \
         -L/usr/local/lib \
-        -L/usr/local/ssl/lib \
+        -L/usr/local/opt/openssl/lib \
+        -L/usr/local/opt/boost/lib \
         -lboost_serialization \
         -lhidapi \
-        -lboost_thread \
+        -lboost_thread-mt \
         -lboost_system \
         -lboost_date_time \
         -lboost_filesystem \
@@ -427,7 +428,7 @@ QML_IMPORT_PATH =
 # Default rules for deployment.
 include(deployment.pri)
 macx {
-    deploy.commands += macdeployqt $$sprintf("%1/%2/%3.app", $$OUT_PWD, $$DESTDIR, $$TARGET) -qmldir=$$PWD -libpath=/usr/local/lib
+    deploy.commands += macdeployqt $$sprintf("%1/%2/%3.app", $$OUT_PWD, $$DESTDIR, $$TARGET) -qmldir=$$PWD
 }
 
 win32 {

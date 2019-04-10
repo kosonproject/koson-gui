@@ -261,7 +261,7 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("daemonManager", daemonManager);
 #endif
 
-//  export to QML koson accounts root directory
+//  export to QML Koson accounts root directory
 //  wizard is talking about where
 //  to save the wallet file (.keys, .bin), they have to be user-accessible for
 //  backups - I reckon we save that in My Documents\Koson Accounts\ on

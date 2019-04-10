@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Koson Project
+// Copyright (c) 2019, The Koson Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.

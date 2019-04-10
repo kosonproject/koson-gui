@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Koson Project
+// Copyright (c) 2019, The Koson Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -91,7 +91,7 @@ Item {
         wrapMode: Text.Wrap
         //renderType: Text.NativeRendering
         color: Style.defaultFontColor
-        text: qsTr("Koson development is solely supported by donations") + translationManager.emptyString
+        text: qsTr("Koson development is supported by donations") + translationManager.emptyString
     }
 
     Column {
